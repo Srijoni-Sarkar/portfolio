@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Srijoni | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav class="navbar">
+  <div class="logo">Portfolio</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <div class="toggle-switch">
+  <input type="checkbox" id="modeToggle" />
+  <label for="modeToggle"></label>
+</div>
+  </ul>
+</nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Hi, my name is <span>Srijoni Sarkar</span></h1>
+      <p><i>I'm a web developer specializing in modern, responsive interfaces.</i></p>
+    </div>
+  </header>
+<!-- Chat Bubble -->
+<div class="chat-bubble" onclick="toggleChat()">Ask anything about me</div>
+
+<!-- Chat Overlay -->
+<div class="chat-overlay" id="chatOverlay">
+  <div class="chat-window">
+    <div class="chat-header">
+      <img src="mypicture.jpg" class="chat-avatar" alt="Srijoni">
+      <span>Chat with Srijoni</span>
+      <span class="close-chat" onclick="toggleChat()">×</span>
+    </div>
+    <div class="chat-body" id="chatBody">
+      <div class="bot-message">Hello! How can I help you?</div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Type your message..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+</div> 
+  
+
+  <!-- About Section -->
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="mypicture.jpg" alt="Photo of Srijoni"/>
+      <p>I’m a dedicated developer skilled in HTML, CSS, JavaScript, and more.I enjoy building user-friendly and visually engaging websites with a strong foundation in modern web technologies, I specialize in transforming ideas into interactive, responsive, and elegant digital experiences. I thrive on clean code, thoughtful design, and the satisfaction of bringing concepts to life on the web.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="container">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">Git</div>
+      <div class="skill">Figma</div>
+      <div class="skill">Communication</div>
+      <div class="skill">Team Collaboration</div>
+      <div class="skill">Problem Solving</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="project1.jpg" alt="Project 1" />
+        <h3>Daily To-Do app</h3>
+        <p>Manage tasks in style! A smooth to-do list with add/delete features and pastel-themed design.</p>
+      </div>
+      <div class="project-card">
+        <img src="weather.jpg" alt="Project 2" />
+        <h3>Weather Whisper</h3>
+        <p>Check your city’s weather with real-time data using OpenWeather API—designed with a dreamy look.</p>
+      </div>
+     <div class="project-card">
+        <img src="calculator.jpg" alt="Project 2" />
+        <h3>Calculator</h3>
+        <p>A fully functional calculator made with JavaScript that performs basic arithmetic operations.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container">
+    <h2>Contact Me</h2>
+    <div class="contact-content">
+      <p>Email:</p>
+      <p class="contact-email">srijonisarkar935@gmail.com</p>
+        <h3>Feel free to reach out for collaborations or just to say hi!</h3>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/srijoni-sarkar-61805b316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "target="_main" class="social-icon"><img src="link.png" alt="LinkedIn"></a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    
+  </footer>
+</body>
+<script src="script.js"></script>
+</html>

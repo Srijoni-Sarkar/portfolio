@@ -1,16 +1,16 @@
 ##  Personal Portfolio Website
 
-## Description
+     Description
 
 This is my personal portfolio website built using HTML, CSS, and JavaScript. It showcases my skills, projects, contact information, and a brief introduction about me.
 
-🔗 Live Demo
+## 🔗 Live Demo
 Click here to view my portfolio
 https://srijoni-s-portfolio.web.app
 
 ---
 
-🛠 Built With
+## 🛠 Built With
 
 HTML5
 
@@ -20,7 +20,7 @@ JavaScript (Vanilla)
 
 ---
 
-✨ Features
+## ✨ Features
 
 Responsive Design (Mobile-friendly)
 
